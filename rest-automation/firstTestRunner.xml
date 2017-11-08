@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="firstSuite" verbose="1" >
+  <test name="particularTestClasses">
+    <packages>
+    	<package name="fruz.udemy.test"></package>
+    </packages>
+    
+    <groups>
+    	<run>
+    		<include name="critical"></include>
+    	</run>
+    </groups>
+  </test>
+</suite>
